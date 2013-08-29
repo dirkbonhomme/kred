@@ -1,0 +1,29 @@
+{
+  "name": "kred",
+  "version": "0.1.0",
+  "license": "MIT",
+  "description": "Kred API client for Node.js",
+  "keywords": [
+    "kred",
+    "api",
+    "social media",
+    "influence"
+  ],
+  "author": "Dirk Bonhomme <dirk@bytelogic.be>",
+  "main": "index",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dirkbonhomme/kred"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "expect.js": "*",
+    "sinon": "*"
+  },
+  "engines": {
+    "node": ">=0.8"
+  }
+}
